@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+  }
+  
+
+.App {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    font-size: 25px;
+  }
+
+  
+  h1 {
+    text-align: center;
+    color: #515151;
+  }
+
+  .wantToShare {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    padding-left: 30px;
+    box-shadow: 0px 6px 4px rgba(13, 100, 194, 0.3);
+    font-weight: bold;
+  }
+
+  
+  form textarea {
+    width: 96%;
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+  }
+
+  form textarea:focus {
+    outline: none;
+  }
+  
+  
+  form button {
+    margin-bottom: 8px;
+    margin-top: 10px;
+    padding: 26px 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+
+  .recent-confess {
+    font-size: 25px;
+    color: #535353;
+  }
+  
+  .confession-card {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+
+  .content {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+
+  .date-time {
+    font-size: 15px;
+    color: rgb(44, 114, 151);
+  }
+  
+  .confession-card button {
+    background: #e0e0e0;
+    border: none;
+    border-radius: 30px;
+    margin-right: 15px;
+    padding: 10px 8px;
+    cursor: pointer;
+  }
+  
+  .confession-card button:hover {
+    background-color: #c4c4c4;
+  }
+  
+  .comment-input {
+    margin-top: 20px;
+  }
+
+  .list-comment {
+    margin-top: 5px;
+  }
+
+  .cmt {
+    font-size: 23px;
+  }
+
+  .cmt-content {
+    font-size: 22px;
+  }
+
+  .cmt-date-time {
+    font-size: 15px;
+    color: rgb(44, 114, 151);
+  }
+  
+  .comment-input input {
+    padding: 15px;
+    width: 90%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .comment-input-wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .comment-input-wrapper input {
+    width: 96%;
+    padding: 18px 40px 40px 10px; /* chừa chỗ bên phải cho nút */
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f2f5;
+    font-size: 18px;
+  }
+  
+  .comment-input-wrapper input:focus {
+    outline: none;
+  }
+
+  .send-icon {
+    position: absolute;
+    right: 5px;
+    top: 60%;
+    transform: translateY(-50%);
+    background-color: #f0f2f5;
+    color: rgb(66, 125, 250);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s ease;
+  }
+  
+  .send-icon:hover {
+    background-color: #eaeaea;
+  }
+  
+  .send-icon i {
+    pointer-events: none; /* 👈 Quan trọng: để hover nhận vào button, không bị chặn bởi <i> */
+  }
+  
